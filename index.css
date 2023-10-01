@@ -1,5 +1,16 @@
+
+:root {
+    --portfolio-primary-color: #7B2CBF;
+    --portfolio-seconday-color: #9D4EDD;
+    --portfolio-tertiary-color: #C77DFF;    
+}
+
 html,body {
     font-family: 'Mooli', sans-serif;
+}
+
+.bg-portfolio-primary-color{
+    background-color: var(--portfolio-primary-color);
 }
 
 .my-picture {
