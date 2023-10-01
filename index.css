@@ -3,14 +3,16 @@
     --portfolio-primary-color: #7B2CBF;
     --portfolio-seconday-color: #9D4EDD;
     --portfolio-tertiary-color: #C77DFF;    
+    --portfolio-navbar-item-hover: #8B53B5;
 }
+
 
 html,body {
     font-family: 'Mooli', sans-serif;
 }
 
 .bg-portfolio-primary-color{
-    background-color: var(--portfolio-primary-color);
+    background-color: var(--portfolio-primary-color)!important;
 }
 
 .my-picture {
@@ -190,4 +192,8 @@ html,body {
 .active:after {
     content: "\2796";
     /* Unicode character for "minus" sign (-) */
+}
+
+.portfolio-navbar-item:hover {
+    background-color: var(--portfolio-navbar-item-hover)!important;
 }
