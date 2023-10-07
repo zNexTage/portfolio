@@ -197,3 +197,7 @@ html,body {
 .portfolio-navbar-item:hover {
     background-color: var(--portfolio-navbar-item-hover)!important;
 }
+
+.devicon-size {
+    font-size: 5em;
+}
