@@ -15,6 +15,10 @@ html,body {
     background-color: var(--portfolio-primary-color)!important;
 }
 
+.bg-portfolio-secondary-color {
+    background-color: var(--portfolio-seconday-color)!important;
+}
+
 .my-picture {
     max-width: 300px;
     width: 100%;
