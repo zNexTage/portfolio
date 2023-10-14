@@ -24,6 +24,16 @@ html,body {
     height: 100%;
 }
 
+.social-media-link {
+    text-decoration: none;
+    color: var(--portfolio-primary-color);
+    font-size: 1.80em;
+}
+
+.social-media-link:hover {
+    color: var(--portfolio-seconday-color);
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
