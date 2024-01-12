@@ -1,0 +1,98 @@
+
+/*************************** GLOBAL ***************************/
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --primary-color: #523249;
+    --rose-taupe: #815355;
+}
+
+.bg-violet {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-rose {
+    background-color: var(--rose-taupe)!important;
+}
+
+.text-violet {
+    color: var(--primary-color) !important;
+}
+
+.text-white {
+    color: #FFF !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.custom-hr {
+    background-color: #FFF;
+    border: #FFF;
+    display: block;
+    height: 2px;
+}
+
+.section-separator {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-separator.parallax {
+    min-height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*************************** END GLOBAL ***************************/
+
+/*************************** INTRO SECTION ***************************/
+.intro-section {
+    height: calc(100vh - 56px);
+    min-height: 500px;
+}
+
+.intro-section-avatar {
+    max-width: 300px;
+}
+
+.intro-section-social-media-link {
+    text-decoration: none;
+    color: var(--rose-taupe);
+    font-size: 1.5em;
+}
+/*************************** END INTRO SECTION ***************************/
+
+
+/*************************** ABOUT ME SECTION ***************************/
+.about-me-bg {
+    background-image: linear-gradient(0deg, rgba(19, 1, 14, 0.5), rgba(64, 64, 61, 0.65)), url("./imgs/clouds-background.webp")
+}
+/*************************** END ABOUT ME SECTION ***************************/
+
+/*************************** ACADEMIC SECTION ***************************/
+.academic-bg {
+    background-image: linear-gradient(0deg, rgba(19, 1, 14, 0.5), rgba(64, 64, 61, 0.65)), url("./imgs/library-wallpaper.jpg")
+}
+
+.academic-institution-logo {
+    width: 100%;
+    height: 100%;
+    max-width: 80px;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+    display: block;
+}
+/*************************** END ACADEMIC SECTION***************************/
+
+.profissional-bg {
+    background-image: linear-gradient(0deg, rgba(19, 1, 14, 0.5), rgba(64, 64, 61, 0.65)), url("./imgs/computer-wallpaper.jpg")
+}
