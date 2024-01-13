@@ -104,6 +104,11 @@ body {
 
 .intro-section-avatar {
     max-width: 300px;
+    transition: border-radius .2s linear;
+}
+
+.intro-section-avatar:hover{
+    border-radius: 10px!important;    
 }
 
 .intro-section-social-media-link {
