@@ -141,3 +141,20 @@ body {
 }
 /*************************** END PROFESSIONAL SECTION***************************/
 
+/*************************** PROJECTS SECTION***************************/
+.projects-bg {
+    background-image: linear-gradient(0deg, rgba(19, 1, 14, 0.5), rgba(64, 64, 61, 0.65)), url("./imgs/fall-walpaper.jpg")
+}
+
+.project-section-logo {
+    max-width: 95px;
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.project-section-technology-logo {
+    font-size: 1.8em;
+}
+/*************************** END PROJECTS SECTION***************************/
