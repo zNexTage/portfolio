@@ -23,6 +23,10 @@ body {
     color: var(--primary-color) !important;
 }
 
+.text-rose {
+    color: var(--rose-taupe)!important;
+}
+
 .text-white {
     color: #FFF !important;
 }
@@ -44,7 +48,7 @@ body {
     background-size: cover;
 }
 
-.section-separator.parallax {
+.parallax {
     min-height: 250px;
     background-attachment: fixed;
     background-position: center;
@@ -113,7 +117,6 @@ body {
 
 .intro-section-social-media-link {
     text-decoration: none;
-    color: var(--rose-taupe);
     font-size: 1.5em;
 }
 /*************************** END INTRO SECTION ***************************/
@@ -181,4 +184,14 @@ body {
     transform: scale(1.08);
 }
 /*************************** END COURSES SECTION***************************/
+
+/*************************** CONTACT SECTION***************************/
+.contact-section {
+    background-image: linear-gradient(0deg, rgba(19, 1, 14, 0.5), rgba(64, 64, 61, 0.65)), url("./imgs/flower-background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+/*************************** ENDCONTACT SECTION***************************/
 
