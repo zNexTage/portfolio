@@ -6,6 +6,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     effect: 'criative',
     followFinger:true,
+    simulateTouch: false,
 
     // If we need pagination
     pagination: {
