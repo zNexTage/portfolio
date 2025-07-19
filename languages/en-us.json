@@ -1,0 +1,38 @@
+{
+    "navbarItems": {
+        "navbar-home": "Home",
+        "navbar-about-me": "About me",
+        "navbar-academic-formation": "Academic education",
+        "navbar-professional-academic": "Professional experience",
+        "navbar-projects": "Projects",
+        "navbar-courses-certificates": "Courses & Certificates",
+        "navbar-contact": "Contact",
+        "navbar-language": "Language",
+        "navbar-portuguese-button":"Portuguese (BR)",
+        "navbar-english-button": "English"
+    },
+    "introItems": {
+        "intro-nice-to-meet-you": "Nice to meet you, my name is",
+        "intro-my-roles": [ "Web Developer", "Backend Developer", "Student" ]
+    },
+    "aboutMeItems": {
+        "about-me-title": "About me",
+        "about-me-my-history-title": "My history",
+        "about-me-my-history-description": "<p>Hello! My name is Christian Oliveira, I'm 24 years old, and I hold a degree in Business Informatics from FATEC Mauá. I am currently pursuing a postgraduate (specialization) degree in Technologies and Information Systems at UFABC. I work as a <strong>web developer</strong>, and in my free time, I enjoy running and playing the keyboard. My first encounter with programming was in 2016 when I enrolled in the <strong>Technical Course in Informatics</strong> at <strong>ETEC Mauá</strong>.</p> <p>I took my initial steps in the field of systems development in 2019 as a <strong>.NET developer</strong> at the consulting firm <a href='https://www.pekus.com.br/' class='link-offset-3'>Pekus</a>, a company with over 25 years of experience. We used <strong>WebForms</strong> and <strong>WinForms</strong> to create our applications. Since then, I have been actively involved in developing web-focused solutions. While my primary focus is on the <strong>backend</strong>, I have also ventured into the world of <strong>frontend</strong>. </p>   <p>      In 2020, I explored the <strong>mobile</strong> world and had the pleasure of working on the development of a mobile application to assist and automate the rehabilitation process for individuals with speech and hearing problems. The <a target='blank' href='https://bv.fapesp.br/pt/bolsas/191596//'>project</a> was funded by FAPESP and conceived by Pedro Colombo, CEO of Incloude.     I am deeply grateful to Pedro and the Incloude team for providing me with all the necessary resources for my growth, not only as a professional but also as an individual.   </p>    <p>       Currently, I work as a <strong>web developer</strong> at <strong><a target='_blank' href='https://www.lsitec.org.br/'>LSI-TEC</a></strong>. I joined <strong><a target='_blank' href='https://www.lsitec.org.br/'>LSI-TEC</a></strong> in 2021 as an intern and was later hired as a web developer in 2022. Since then, I have been working with the team to develop solutions for the <strong>education</strong> and <strong>health</strong> sectors.   </p>"   
+    },
+    "academicEducationItems": {
+        "academic-education-title": "Academic education",
+        "academic-formation-ufabc": "Specialization in Technologies and Information Systems <br /><small>Postgraduate Lato Sensu - In progress</small>",
+        "academic-formation-fatec-maua": "Business Informatics Technologist <br /><small>Completed in 2022</small>",
+        "academic-formation-etec-maua": "Technical Course in Informatics <br /><small>Completed in 2017</small>"
+    },
+    "professionExperiencieItems": {
+        "professional-experiencie-title": "Professional experience",
+        "professional-experiencie-position-title": "Position",
+        "professional-experiencie-web-developer": "Web Developer",
+        "professional-experiencie-intern": "Intern",
+        "professional-experiencie-activities": "Activities",
+        "professional-experiencie-projects": "Projects",
+        "professional-experiencie-ling-frameworks-tecnologies": "Languages, frameworks and technologies"        
+    }
+}

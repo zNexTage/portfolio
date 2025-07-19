@@ -24,26 +24,45 @@
                     <a class="navbar-brand text-light" href="#">Portfólio</a>
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                            <a id="navbar-home" class="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#about-me">Sobre mim</a>
+                            <a id="navbar-about-me" class="nav-link text-light" href="#about-me">Sobre mim</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#academic-formation">Formação acadêmica</a>
+                            <a id="navbar-academic-formation" class="nav-link text-light" href="#academic-formation">Formação acadêmica</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#professional-experiencie">Experiência profissional</a>
+                            <a id="navbar-professional-academic" class="nav-link text-light" href="#professional-experiencie">Experiência profissional</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#projects">Projetos</a>
+                            <a id="navbar-projects" class="nav-link text-light" href="#projects">Projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#courses-certificates">Cursos & Certificados</a>
+                            <a id="navbar-courses-certificates" class="nav-link text-light" href="#courses-certificates">Cursos & Certificados</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#contact">Contato</a>
+                            <a id="navbar-contact" class="nav-link text-light" href="#contact">Contato</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a 
+                            id="navbar-language"
+                            class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Linguagem
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <button id="navbar-portuguese-button" class="dropdown-item">
+                                        Português (BR)
+                                    </button>
+                                </li>
+                                <li>
+                                    <button id="navbar-english-button" class="dropdown-item">Inglês</button>
+                                </li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -53,9 +72,9 @@
         <section
             class="intro-section p-lg-5 p-sm-2 p-xs-2 d-flex align-items-center justify-content-center justify-content-md-between justify-content-lg-between flex-wrap">
             <div class="order-2 order-md-1 order-sm-1">
-                <span class="d-block h2">Muito prazer, me chamo</span>
+                <span id="intro-nice-to-meet-you" class="d-block h2">Muito prazer, me chamo</span>
                 <span class="d-block h1">Christian Oliveira</span>
-                <span class="d-block h4 typewrite text-violet fw-bold" data-period="2000"
+                <span id="intro-my-roles" class="d-block h4 typewrite text-violet fw-bold" data-period="2000"
                     data-type='[ "Desenvolvedor Web", "Desenvolvedor Backend", "Estudante" ]'>
                     <span class="wrap"></span>
                 </span>
@@ -73,51 +92,55 @@
 
         <section id="about-me">
             <div class="section-separator parallax about-me-bg d-flex justify-content-center p-5 flex-column">
-                <h1 class="text-light fw-bold d-block">Sobre mim</h1>
+                <h1 id="about-me-title" class="text-light fw-bold d-block">Sobre mim</h1>
                 <br />
                 <hr class="custom-hr" style="width: 80px;">
             </div>
             <div class="p-5 text-justify">
-                <h2>Minha história</h2>
-                <p>
-                    Olá! Meu nome é Christian Oliveira, tenho 24 anos, sou tecnólogo em informática para negócios pela
-                    FATEC de mauá, sou pós-graduando (especialização) em
-                    tecnologias e sistemas da informação pela UFABC, atuo como <strong>desenvolvedor web</strong> e nas
-                    horas vagas prático corrida e teclado.
-                    Meu primeiro contato com programação ocorreu em 2016, quando eu ingressei no curso <strong>técnico
-                        em informática</strong> pela <strong>ETEC de Mauá</strong>.
-                </p>
-                <p>
-                    Dei meus primeiros passos na área de desenvolvimento de sistemas em 2019 como <strong>desenvolvedor
-                        .NET</strong> na consultoria <a href="https://www.pekus.com.br/"
-                        class="link-offset-3">Pekus</a>, uma empresa com mais de 25 anos de mercado. Utilizávamos
-                    <strong>WebForms</strong> e <strong>WinForms</strong> para criar nossos aplicações.
-                    Desde então, eu continuo ativamente atuando com desenvolvimento de soluções voltadas para a web. Meu
-                    foco sempre foi o <strong>backend</strong>, mas, claro, nunca deixei de me aventurar no
-                    <strong>frontend</strong>.
-                </p>
-                <p>
-                    Em 2020, me aventurei no mundo <strong>mobile</strong> e tive o prazer de trabalhar no
-                    desenvolvimento de um aplicativo móvel para auxiliar e automatizar o processo de reabilitação de
-                    pessoas com problemas fonoaudiólogos. O <a target="_blank"
-                        href="https://bv.fapesp.br/pt/bolsas/191596//">projeto</a> foi financiado pela FAPESP e foi
-                    idealizado por Pedro Colombo, CEO da Incloude.
-                    Sou profundamente grato ao Pedro e à equipe da Incloude, pois eles me proporcionaram todos os
-                    recursos necessários para minha evolução, não apenas como profissional, mas também como pessoa.
-                </p>
-                <p>
-                    Atualmente, eu trabalho como <strong>desenvolvedor web</strong> na empresa <strong><a
-                            target="_blank" href="https://www.lsitec.org.br/">LSI-TEC</a></strong>. Ingressei no
-                    <strong><a target="_blank" href="https://www.lsitec.org.br/">LSI-TEC</a></strong> em 2021 como
-                    estagiário e fui efetivado como desenvolvedor web em 2022, e desde então sigo com a equipe
-                    desenvolvendo soluções para a área da <strong>educação</strong> e <strong>saúde</strong>.
-                </p>
+                <h2 id="about-me-my-history-title">Minha história</h2>
+                <div id="about-me-my-history-description">
+                    <p>
+                        Olá! Meu nome é Christian Oliveira, tenho 24 anos, sou tecnólogo em informática para negócios pela
+                        FATEC de mauá, sou pós-graduando (especialização) em
+                        tecnologias e sistemas da informação pela UFABC, atuo como <strong>desenvolvedor web</strong> e nas
+                        horas vagas prático corrida e teclado.
+                        Meu primeiro contato com programação ocorreu em 2016, quando eu ingressei no curso <strong>técnico
+                            em informática</strong> pela <strong>ETEC de Mauá</strong>.
+                    </p>
+                    <p>
+                        Dei meus primeiros passos na área de desenvolvimento de sistemas em 2019 como <strong>desenvolvedor
+                            .NET</strong> na consultoria <a href="https://www.pekus.com.br/"
+                            class="link-offset-3">Pekus</a>, uma empresa com mais de 25 anos de mercado. Utilizávamos
+                        <strong>WebForms</strong> e <strong>WinForms</strong> para criar nossos aplicações.
+                        Desde então, eu continuo ativamente atuando com desenvolvimento de soluções voltadas para a web. Meu
+                        foco sempre foi o <strong>backend</strong>, mas, claro, nunca deixei de me aventurar no
+                        <strong>frontend</strong>.
+                    </p>
+                    <p>
+                        Em 2020, me aventurei no mundo <strong>mobile</strong> e tive o prazer de trabalhar no
+                        desenvolvimento de um aplicativo móvel para auxiliar e automatizar o processo de reabilitação de
+                        pessoas com problemas fonoaudiólogos. O <a target="_blank"
+                            href="https://bv.fapesp.br/pt/bolsas/191596//">projeto</a> foi financiado pela FAPESP e foi
+                        idealizado por Pedro Colombo, CEO da Incloude.
+                        Sou profundamente grato ao Pedro e à equipe da Incloude, pois eles me proporcionaram todos os
+                        recursos necessários para minha evolução, não apenas como profissional, mas também como pessoa.
+                    </p>
+                    <p>
+                        Atualmente, eu trabalho como <strong>desenvolvedor web</strong> na empresa <strong><a
+                                target="_blank" href="https://www.lsitec.org.br/">LSI-TEC</a></strong>. Ingressei no
+                        <strong><a target="_blank" href="https://www.lsitec.org.br/">LSI-TEC</a></strong> em 2021 como
+                        estagiário e fui efetivado como desenvolvedor web em 2022, e desde então sigo com a equipe
+                        desenvolvendo soluções para a área da <strong>educação</strong> e <strong>saúde</strong>.
+                    </p>
+
+                </div>
+                
             </div>
         </section>
 
         <section id="academic-formation">
             <div class="section-separator parallax academic-bg d-flex justify-content-center p-5 flex-column">
-                <h1 class="text-light fw-bold d-block">Formação acadêmica</h1>
+                <h1 id="academic-education-title" class="text-light fw-bold d-block">Formação acadêmica</h1>
                 <br />
                 <hr class="custom-hr" style="width: 80px;">
             </div>
@@ -126,7 +149,7 @@
                 <li class="list-group-item d-flex justify-content-between align-items-center shadow mb-2">
                     <div>
                         <strong>UFABC - Universidade Federal do ABC </strong>
-                        <p>
+                        <p id="academic-formation-ufabc">
                             Especialização em tecnologias e sistemas da informação <br />
                             <small>Pós-graduação Lato sensu - Em progresso</small>
                         </p>
@@ -137,7 +160,7 @@
                 <li class="list-group-item d-flex justify-content-between align-items-center shadow mb-2">
                     <div>
                         <strong>FATEC de Mauá - Faculdade de tecnologia de Mauá</strong>
-                        <p>
+                        <p id="academic-formation-fatec-maua">
                             Tecnólogo em informática para negócios <br />
                             <small>Concluído em 2022</small>
                         </p>
@@ -149,7 +172,7 @@
                 <li class="list-group-item d-flex justify-content-between align-items-center shadow">
                     <div>
                         <strong>ETEC de Mauá - Escola técnica de Mauá</strong>
-                        <p>
+                        <p id="academic-formation-etec-maua">
                             Técnico em informática <br />
                             <small>Concluído em 2017</small>
                         </p>
@@ -162,7 +185,7 @@
 
         <section id="professional-experiencie">
             <div class="section-separator parallax profissional-bg d-flex justify-content-center p-5 flex-column">
-                <h1 class="text-light fw-bold d-block">Experiência profissional</h1>
+                <h1 id="professional-experiencie-title" class="text-light fw-bold d-block">Experiência profissional</h1>
                 <br />
                 <hr class="custom-hr" style="width: 80px;">
             </div>
@@ -176,17 +199,17 @@
                     </h2>
 
                     <div>
-                        <span class="fw-bold">Cargo</span>
+                        <span class="fw-bold" id="professional-experiencie-position-title">Cargo</span>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item ps-0">
-                                Desenvolvedor Web <br />
-                                <span class="text-muted">09/2022 - atual</span>
+                                <span id="professional-experiencie-web-developer">Desenvolvedor Web</span> <br />
+                                <span class="text-muted">09/2022 - 08/2024</span>
                             </li>
-                            <li class="list-group-item ps-0">Estagiário <br /> <span class="text-muted">03/2021 -
+                            <li class="list-group-item ps-0"><span id="professional-experiencie-intern">Estagiário</span> <br /> <span class="text-muted">03/2021 -
                                     08/2022</span></li>
                         </ul>
                     </div>
-                    <button type="button" class="collapsible fw-bold">Atividades</button>
+                    <button type="button" class="collapsible fw-bold" data-id="professional-experiencie-activities">Atividades</button>
                     <div class="collapsible-content mt-2 ">
                         <p class="text-justify">
                             Atuei com o desenvolvimento integral de <strong>aplicações web</strong>,
@@ -359,7 +382,7 @@
                             <span class="text-muted">03/2020 - 11/2020</span>
                         </li>
                     </ul>
-                    <button type="button" class="collapsible fw-bold">Atividades</button>
+                    <button type="button" class="collapsible fw-bold" data-id="professional-experiencie-activities">Atividades</button>
                     <div class="collapsible-content mt-2 ">
                         <p>
                             Bolsista de Treinamento Técnico II pela Fapesp executando o projeto: <a target="_blank"
@@ -494,7 +517,7 @@
                         </li>
                     </ul>
 
-                    <button type="button" class="collapsible fw-bold">Atividades</button>
+                    <button type="button" class="collapsible fw-bold" data-id="professional-experiencie-activities">Atividades</button>
                     <div class="collapsible-content">
                         <p>
                             Tive a oportunidade de contribuir para o desenvolvimento de aplicações web e desktop
@@ -751,7 +774,7 @@
                             <h2>
                                 <a target="_blank" href="https://github.com/zNexTage/journey-miles">
                                     Journey Miles
-                                </a> 
+                                </a>
                             </h2>
                         </div>
 
@@ -806,7 +829,7 @@
                             <h2>
                                 <a target="_blank" href="https://lyrics-api-two.vercel.app/">
                                     Lyrics API
-                                </a> 
+                                </a>
                             </h2>
                             <img src="./imgs/projects/clave-de-sol-logo.png" class="rounded-start project-logo"
                                 alt="Clave de sol">
@@ -870,7 +893,7 @@
                                 <a target="_blank" href="https://github.com/zNexTage/aluracord">
                                     Aluracord
                                 </a>
-                                
+
                             </h2>
                         </div>
 
@@ -982,7 +1005,7 @@
                             <h2>
                                 <a href="https://snake-math-game.netlify.app/" target="_blank">
                                     Snake Math Game
-                                </a>                                
+                                </a>
                             </h2>
                         </div>
 
@@ -1170,7 +1193,7 @@
                                         class="img-thumbnail w-100 h-100 rounded course-section-certificate"
                                         alt="Certificado Udemy - Criando poderosas API's RESTful com Django Rest Framework" />
                                 </a>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -1311,7 +1334,8 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b016aca6c8.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./typing.js"></script>
+    <script src="./index.js" type="module"></script>
+    <!-- <script src="./typing.js"></script> -->
     <script src="./collapse.js"></script>
     <script src="./swiper.js"></script>
 </body>

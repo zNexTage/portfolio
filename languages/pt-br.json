@@ -1,0 +1,38 @@
+{
+    "navbarItems": {
+        "navbar-home": "Home",
+        "navbar-about-me": "Sobre mim",
+        "navbar-academic-formation": "Formação acadêmica",
+        "navbar-professional-academic": "Experiência acadêmica",
+        "navbar-projects": "Projetos",
+        "navbar-courses-certificates": "Cursos & Certificados",
+        "navbar-contact": "Contato",
+        "navbar-language": "Linguagem",
+        "navbar-portuguese-button":"Português (BR)",
+        "navbar-english-button": "Inglês"
+    },
+    "introItems": {
+        "intro-nice-to-meet-you": "Muito prazer, meu nome é",
+        "intro-my-roles": [ "Desenvolvedor Web", "Desenvolvedor Backend", "Estudante" ]
+    },
+    "aboutMeItems": {
+        "about-me-title": "Sobre mim",
+        "about-me-my-history-title": "Minha história",
+        "about-me-my-history-description": "<p>Olá! Meu nome é Christian Oliveira, tenho 24 anos, sou tecnólogo em informática para negócios pela    FATEC de mauá, sou pós-graduando (especialização) em       tecnologias e sistemas da informação pela UFABC, atuo como <strong>desenvolvedor web</strong> e nas        horas vagas prático corrida e teclado.        Meu primeiro contato com programação ocorreu em 2016, quando eu ingressei no curso <strong>técnico            em informática</strong> pela <strong>ETEC de Mauá</strong>.    </p>    <p>        Dei meus primeiros passos na área de desenvolvimento de sistemas em 2019 como <strong>desenvolvedor            .NET</strong> na consultoria <a href='https://www.pekus.com.br/'           class='link-offset-3'>Pekus</a>, uma empresa com mais de 25 anos de mercado. Utilizávamos       <strong>WebForms</strong> e <strong>WinForms</strong> para criar nossos aplicações.       Desde então, eu continuo ativamente atuando com desenvolvimento de soluções voltadas para a web. Meu       foco sempre foi o <strong>backend</strong>, mas, claro, nunca deixei de me aventurar no       <strong>frontend</strong>.   </p>   <p>       Em 2020, me aventurei no mundo <strong>mobile</strong> e tive o prazer de trabalhar no       desenvolvimento de um aplicativo móvel para auxiliar e automatizar o processo de reabilitação de       pessoas com problemas fonoaudiólogos. O <a target='_blank'           href='https://bv.fapesp.br/pt/bolsas/191596//'>projeto</a> foi financiado pela FAPESP e foi       idealizado por Pedro Colombo, CEO da Incloude.       Sou profundamente grato ao Pedro e à equipe da Incloude, pois eles me proporcionaram todos os       recursos necessários para minha evolução, não apenas como profissional, mas também como pessoa.   </p>   <p>       Atualmente, eu trabalho como <strong>desenvolvedor web</strong> na empresa <strong><a               target='_blank' href='https://www.lsitec.org.br/'>LSI-TEC</a></strong>. Ingressei no      <strong><a target='_blank' href='https://www.lsitec.org.br/'>LSI-TEC</a></strong> em 2021 como       estagiário e fui efetivado como desenvolvedor web em 2022, e desde então sigo com a equipe       desenvolvendo soluções para a área da <strong>educação</strong> e <strong>saúde</strong>.   </p>"
+    },
+    "academicEducationItems": {
+        "academic-education-title": "Formação acadêmica",
+        "academic-formation-ufabc": "Especialização em tecnologias e sistemas da informação <br /><small>Pós-graduação Lato sensu - Em progresso</small>",
+        "academic-formation-fatec-maua": "Tecnólogo em informática para negócios <br /><small>Concluído em 2022</small>",
+        "academic-formation-etec-maua": "Técnico em informática <br /><small>Concluído em 2017</small>"
+    },
+    "professionExperiencieItems": {
+        "professional-experiencie-title": "Experiência profissional",
+        "professional-experiencie-position-title": "Cargo",
+        "professional-experiencie-web-developer": "Desenvolvedor Web",
+        "professional-experiencie-intern": "Estagiário",
+        "professional-experiencie-activities": "Atividades",
+        "professional-experiencie-projects": "Projetos",
+        "professional-experiencie-ling-frameworks-tecnologies": "Linguagens, frameworks e tecnologias"       
+    }
+}
